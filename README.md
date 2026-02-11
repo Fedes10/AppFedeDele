@@ -7,13 +7,6 @@
 
 
 
-# 1. Matar cualquier proceso de Java/Gradle que esté bloqueando carpetas
-Stop-Process -Name "java" -Force -ErrorAction SilentlyContinue; 
+https://download.oracle.com/java/21/archive/jdk-21.0.9_windows-x64_bin.exe
 
-# 2. Borrar las carpetas de caché corruptas (Ahora sí que sí)
-Remove-Item -Recurse -Force .gradle; 
-Remove-Item -Recurse -Force build; 
 
-# 3. Configurar Java y limpiar
-$env:JAVA_HOME = "C:\Program Files\Android\Android Studio\jbr"; 
-.\gradlew.bat clean
