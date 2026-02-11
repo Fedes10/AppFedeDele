@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_card">#121212</color>
+    <color name="blue_light">#0D1A2D</color>
+    <color name="blue_primary">#64B5F6</color>
+    <color name="divider_color">#2A2A2A</color>
+    <color name="green_light">#0D1A0D</color>
+    <color name="green_primary">#81C784</color>
+    <color name="md_theme_background">#000000</color>
+    <color name="md_theme_dark_background">#000000</color>
+    <color name="md_theme_dark_error">#FF6B6B</color>
+    <color name="md_theme_dark_errorContainer">#4D0000</color>
+    <color name="md_theme_dark_onBackground">#FFFFFF</color>
+    <color name="md_theme_dark_onError">#000000</color>
+    <color name="md_theme_dark_onErrorContainer">#FFB4AB</color>
+    <color name="md_theme_dark_onPrimary">#000000</color>
+    <color name="md_theme_dark_onPrimaryContainer">#FFD9C0</color>
+    <color name="md_theme_dark_onSecondary">#000000</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFD9C0</color>
+    <color name="md_theme_dark_onSurface">#FFFFFF</color>
+    <color name="md_theme_dark_onSurfaceVariant">#E0E0E0</color>
+    <color name="md_theme_dark_onTertiary">#000000</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFE5B0</color>
+    <color name="md_theme_dark_outline">#666666</color>
+    <color name="md_theme_dark_outlineVariant">#333333</color>
+    <color name="md_theme_dark_primary">#FF9E6D</color>
+    <color name="md_theme_dark_primaryContainer">#4A2800</color>
+    <color name="md_theme_dark_secondary">#FFB088</color>
+    <color name="md_theme_dark_secondaryContainer">#3D2518</color>
+    <color name="md_theme_dark_surface">#000000</color>
+    <color name="md_theme_dark_surfaceElevation1">#0D0D0D</color>
+    <color name="md_theme_dark_surfaceElevation2">#141414</color>
+    <color name="md_theme_dark_surfaceElevation3">#1A1A1A</color>
+    <color name="md_theme_dark_surfaceVariant">#1A1A1A</color>
+    <color name="md_theme_dark_tertiary">#FFC46D</color>
+    <color name="md_theme_dark_tertiaryContainer">#3D3010</color>
+    <color name="md_theme_surface">#000000</color>
+    <color name="orange_primary">#FF9E6D</color>
+    <color name="orange_very_light">#2D1A0A</color>
+    <color name="purple_light">#1A0D2D</color>
+    <color name="purple_primary">#BB86FC</color>
+    <color name="red_light">#2D0D0D</color>
+    <color name="red_primary">#FF8A80</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_tertiary">#808080</color>
+    <color name="white">#000000</color>
+    <style name="Theme.DeleFede" parent="Theme.Material3.Dark.NoActionBar">
+        
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
+        
+        
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_dark_onSecondaryContainer</item>
+        
+        
+        <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_dark_onTertiaryContainer</item>
+        
+        
+        <item name="colorError">@color/md_theme_dark_error</item>
+        <item name="colorOnError">@color/md_theme_dark_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_dark_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_dark_onErrorContainer</item>
+        
+        
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_dark_onSurfaceVariant</item>
+        
+        
+        <item name="colorOutline">@color/md_theme_dark_outline</item>
+        <item name="colorOutlineVariant">@color/md_theme_dark_outlineVariant</item>
+        
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+        
+        
+        <item name="materialButtonStyle">@style/Widget.DeleFede.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.DeleFede.Button.Outlined</item>
+        
+        
+        <item name="materialCardViewStyle">@style/Widget.DeleFede.CardView.Dark</item>
+        
+        
+        <item name="floatingActionButtonStyle">@style/Widget.DeleFede.FAB</item>
+    </style>
+    <style name="Theme.DeleFede.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/md_theme_dark_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_animated</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Theme.DeleFede</item>
+    </style>
+    <style name="Widget.DeleFede.CardView.Dark" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">#121212</item>
+        <item name="contentPadding">16dp</item>
+        <item name="strokeColor">#2A2A2A</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+</resources>

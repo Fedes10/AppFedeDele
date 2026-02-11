@@ -1,0 +1,554 @@
+[
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "com.example.delefede.app-debug-61:/layout_fragment_home.xml.flat",
+        "source": "com.example.delefede.app-main-63:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_more.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ripple_card.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ripple_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_instagram.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_instagram.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\color_bottom_nav_color_selector.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\color\\bottom_nav_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_button_release.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\button_release.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_card_elevated.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_card_elevated.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_guadalupe.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_guadalupe.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_calendar_day_today.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_calendar_day_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_bottom_sheet_menu.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\bottom_sheet_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_inmaculada.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_inmaculada.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_play.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_cross.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_cross.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_newspaper.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_newspaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_bounce_in.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\bounce_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_dot.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_cancionero.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_cancionero.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_item_event.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\item_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_bottom_nav_modern.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\bottom_nav_modern.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_home_header.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_home_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_skip_previous.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_skip_previous.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_item_noticia.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\item_noticia.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_noticias.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_noticias.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_play_arrow.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_play_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_marian.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_marian.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_gradient_warm.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_gradient_warm.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_button_gradient.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_button_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_category_badge.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_category_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_item_calendar_day.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\item_calendar_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_news.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_fab_shadow.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_fab_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_event.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_skip_next.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_skip_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_price.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_price.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\color_chip_background_selector.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\color\\chip_background_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_item_song.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\item_song.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_splash_animated.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_splash_animated.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_gradient_guadalupe.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\gradient_guadalupe.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_card_background_rounded.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\card_background_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_item_recent_news.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\item_recent_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_pause.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_item_cancion.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\item_cancion.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_images.png.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\images.png"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_layout_animation_from_bottom.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\layout_animation_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_fatima.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_fatima.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_community.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_community.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_dele.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_dele.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_gradient_subtle.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_gradient_subtle.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_fab_rotate_open.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\fab_rotate_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_music.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_music.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_fatima.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_fatima.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_news_card_header.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_news_card_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\color_switch_thumb_selector.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\color\\switch_thumb_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_calendar.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_button_press.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\button_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_bottom_sheet_handle.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_bottom_sheet_handle.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_gradient_fade_bottom.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\gradient_fade_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_event_dot.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_event_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_leer_cancion.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_leer_cancion.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_facebook.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_facebook.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_gradient_fatima.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\gradient_fatima.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_church.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_church.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_photo.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_splash_gradient.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_splash_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_forward_10.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_forward_10.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_youth.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_youth.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_fab_rotate_close.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\fab_rotate_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_contact_modern.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_contact_modern.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\raw_audio_wave.json.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\raw\\audio_wave.json"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_home_filled.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_home_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_slide_up.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_fab_center.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_fab_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_replay_10.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_replay_10.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_bounce_out.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\bounce_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_dark_mode.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_dark_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_guadalupe.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_guadalupe.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_slide_down.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_card_enter.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\card_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_gradient_inmaculada.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\gradient_inmaculada.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_pilgrimage.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_pilgrimage.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_contact.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_event_indicator.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_event_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_youtube.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_youtube.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_bg_calendar_day_selected.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\bg_calendar_day_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\layout_fragment_contact.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\color_switch_track_selector.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\color\\switch_track_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_lyrics.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_lyrics.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\color_chip_text_selector.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\color\\chip_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-debug-61:\\drawable_ic_play_circle.xml.flat",
+        "source": "C:\\Users\\fedet\\.gradle\\daemon\\8.10.2\\com.example.delefede.app-main-63:\\drawable\\ic_play_circle.xml"
+    }
+]

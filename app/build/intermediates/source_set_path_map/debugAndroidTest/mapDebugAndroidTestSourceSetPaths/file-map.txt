@@ -1,0 +1,6 @@
+com.example.delefede.test.app-tracing-1.2.0-0 C:\Users\fedet\.gradle\caches\8.10.2\transforms\9ba514893a6b82d7ca33f9f739777bfd\transformed\tracing-1.2.0\res
+com.example.delefede.test.app-core-1.6.1-1 C:\Users\fedet\.gradle\caches\8.10.2\transforms\c231eff523e18952a78aa26d521992e9\transformed\core-1.6.1\res
+com.example.delefede.test.app-androidTest-2 F:\Fede\Programación\Apps\DeleFede\app\build\generated\res\resValues\androidTest\debug
+com.example.delefede.test.app-mergeDebugAndroidTestResources-3 F:\Fede\Programación\Apps\DeleFede\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.delefede.test.app-mergeDebugAndroidTestResources-4 F:\Fede\Programación\Apps\DeleFede\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.delefede.test.app-debugAndroidTest-5 F:\Fede\Programación\Apps\DeleFede\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
