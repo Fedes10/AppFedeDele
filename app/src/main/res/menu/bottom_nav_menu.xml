@@ -18,7 +18,7 @@
         android:title="Fátima" />
     <item
         android:id="@+id/contactFragment"
-        android:icon="@drawable/ic_contact"
+        android:icon="@drawable/ic_contact_modern"
         android:title="Contacto" />
     <item
         android:id="@+id/aboutFragment"

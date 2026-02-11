@@ -1,20 +1,205 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.DeleFede" parent="Theme.Material3.Light.NoActionBar">
-        <!-- Tema principal blanco y naranja suave -->
-        <item name="colorPrimary">@color/orange_soft</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/orange_accent</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <item name="android:windowBackground">@color/white</item>
-        <item name="colorSurface">@color/white</item>
-        <item name="colorOnSurface">@color/text_primary</item>
-        <item name="colorOnBackground">@color/text_primary</item>
-        <item name="colorOutline">@color/light_gray</item>
-        <!-- Tipografía moderna -->
-        <item name="fontFamily">sans-serif</item>
+    
+    <!-- Tema principal de la aplicación - Material Design 3 -->
+    <style name="Theme.DeleFede" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Colores primarios -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        
+        <!-- Colores secundarios -->
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+        
+        <!-- Colores terciarios -->
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer</item>
+        
+        <!-- Colores de error -->
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer</item>
+        
+        <!-- Colores de fondo y superficie -->
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+        
+        <!-- Outline -->
+        <item name="colorOutline">@color/md_theme_outline</item>
+        <item name="colorOutlineVariant">@color/md_theme_outlineVariant</item>
+        
+        <!-- Barra de estado transparente para edge-to-edge -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Transiciones de actividad por defecto -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+        
+        <!-- Estilo de botones -->
+        <item name="materialButtonStyle">@style/Widget.DeleFede.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.DeleFede.Button.Outlined</item>
+        
+        <!-- Estilo de cards -->
+        <item name="materialCardViewStyle">@style/Widget.DeleFede.CardView</item>
+        
+        <!-- Estilo de FAB -->
+        <item name="floatingActionButtonStyle">@style/Widget.DeleFede.FAB</item>
+    </style>
+    
+    <!-- Tema para Splash Screen -->
+    <style name="Theme.DeleFede.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_animated</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Theme.DeleFede</item>
+    </style>
+    
+    <!-- Botón Material elegante -->
+    <style name="Widget.DeleFede.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="rippleColor">@color/ripple_color</item>
+    </style>
+    
+    <!-- Botón outlined -->
+    <style name="Widget.DeleFede.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="strokeColor">@color/orange_primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="rippleColor">@color/ripple_color</item>
+    </style>
+    
+    <!-- Botón de texto -->
+    <style name="Widget.DeleFede.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="rippleColor">@color/ripple_color</item>
+    </style>
+    
+    <!-- CardView elegante -->
+    <style name="Widget.DeleFede.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- CardView para noticias -->
+    <style name="Widget.DeleFede.CardView.News" parent="Widget.DeleFede.CardView">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+    
+    <!-- FAB central moderno -->
+    <style name="Widget.DeleFede.FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/orange_primary</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">12dp</item>
+        <item name="fabSize">normal</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.DeleFede.FAB</item>
+    </style>
+    
+    <!-- FAB grande para botón central -->
+    <style name="Widget.DeleFede.FAB.Large" parent="Widget.Material3.FloatingActionButton.Large.Primary">
+        <item name="backgroundTint">@color/orange_primary</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">16dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.DeleFede.FAB.Large</item>
+    </style>
+    
+    <!-- Shape para FAB -->
+    <style name="ShapeAppearance.DeleFede.FAB" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    
+    <style name="ShapeAppearance.DeleFede.FAB.Large" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    
+    <!-- Estilo de texto para títulos -->
+    <style name="TextAppearance.DeleFede.Headline" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+    
+    <style name="TextAppearance.DeleFede.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <style name="TextAppearance.DeleFede.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <style name="TextAppearance.DeleFede.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+    
+    <style name="TextAppearance.DeleFede.Label" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+    
+    <!-- Bottom Sheet moderno -->
+    <style name="Widget.DeleFede.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="backgroundTint">@color/white</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.DeleFede.BottomSheet</item>
+    </style>
+    
+    <style name="ShapeAppearance.DeleFede.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    
+    <!-- Navigation Bar moderna -->
+    <style name="Widget.DeleFede.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/white</item>
+        <item name="itemIconTint">@color/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_color_selector</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.DeleFede.BottomNavIndicator</item>
+        <item name="elevation">8dp</item>
+    </style>
+    
+    <style name="Widget.DeleFede.BottomNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/orange_light</item>
+    </style>
+    
+    <!-- Tema para BottomSheetDialog -->
+    <style name="Theme.DeleFede.BottomSheet" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.DeleFede.BottomSheet</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/white</item>
     </style>
 
-    <!-- Tema principal -->
-    <style name="Theme.DeleFede" parent="Base.Theme.DeleFede" />
 </resources>

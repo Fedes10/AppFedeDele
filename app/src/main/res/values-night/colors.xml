@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores para el tema oscuro AMOLED - Negro puro -->
+    
+    <!-- Colores principales -->
+    <color name="md_theme_dark_primary">#FF9E6D</color>
+    <color name="md_theme_dark_onPrimary">#000000</color>
+    <color name="md_theme_dark_primaryContainer">#4A2800</color>
+    <color name="md_theme_dark_onPrimaryContainer">#FFD9C0</color>
+    
+    <!-- Colores secundarios -->
+    <color name="md_theme_dark_secondary">#FFB088</color>
+    <color name="md_theme_dark_onSecondary">#000000</color>
+    <color name="md_theme_dark_secondaryContainer">#3D2518</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFD9C0</color>
+    
+    <!-- Colores terciarios -->
+    <color name="md_theme_dark_tertiary">#FFC46D</color>
+    <color name="md_theme_dark_onTertiary">#000000</color>
+    <color name="md_theme_dark_tertiaryContainer">#3D3010</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFE5B0</color>
+    
+    <!-- Colores de fondo y superficie - NEGRO PURO -->
+    <color name="md_theme_dark_background">#000000</color>
+    <color name="md_theme_dark_onBackground">#FFFFFF</color>
+    <color name="md_theme_dark_surface">#000000</color>
+    <color name="md_theme_dark_onSurface">#FFFFFF</color>
+    <color name="md_theme_dark_surfaceVariant">#1A1A1A</color>
+    <color name="md_theme_dark_onSurfaceVariant">#E0E0E0</color>
+    
+    <!-- Outline -->
+    <color name="md_theme_dark_outline">#666666</color>
+    <color name="md_theme_dark_outlineVariant">#333333</color>
+    
+    <!-- Colores de error -->
+    <color name="md_theme_dark_error">#FF6B6B</color>
+    <color name="md_theme_dark_onError">#000000</color>
+    <color name="md_theme_dark_errorContainer">#4D0000</color>
+    <color name="md_theme_dark_onErrorContainer">#FFB4AB</color>
+    
+    <!-- Colores de superficie elevada (modo oscuro) -->
+    <color name="md_theme_dark_surfaceElevation1">#0D0D0D</color>
+    <color name="md_theme_dark_surfaceElevation2">#141414</color>
+    <color name="md_theme_dark_surfaceElevation3">#1A1A1A</color>
+    
+    <!-- Colores sobrescritos para modo oscuro -->
+    <color name="white">#000000</color>
+    <color name="background_card">#121212</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_tertiary">#808080</color>
+    <color name="divider_color">#2A2A2A</color>
+    
+    <!-- Colores para fondos de iconos en modo oscuro -->
+    <color name="orange_very_light">#2D1A0A</color>
+    <color name="orange_primary">#FF9E6D</color>
+    <color name="md_theme_background">#000000</color>
+    <color name="md_theme_surface">#000000</color>
+    
+    <!-- Colores para calendario (modo oscuro) -->
+    <color name="blue_light">#0D1A2D</color>
+    <color name="green_light">#0D1A0D</color>
+    <color name="purple_light">#1A0D2D</color>
+    <color name="red_light">#2D0D0D</color>
+    
+    <!-- Colores primarios para modo oscuro (más brillantes) -->
+    <color name="purple_primary">#BB86FC</color>
+    <color name="blue_primary">#64B5F6</color>
+    <color name="green_primary">#81C784</color>
+    <color name="red_primary">#FF8A80</color>
+</resources>

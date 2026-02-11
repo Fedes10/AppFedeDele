@@ -1,120 +1,303 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/md_theme_background"
     tools:context=".ui.dele.LeerCancionFragment">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/songTitleCard"
-        android:layout_width="0dp"
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="6dp"
-        app:strokeColor="@color/orange_soft"
-        app:strokeWidth="2dp"
-        android:backgroundTint="@color/white">
-        <TextView
-            android:id="@+id/songTitle"
+        android:background="@color/md_theme_background"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:navigationIconTint="@color/text_primary"
+            app:title=""
+            app:layout_scrollFlags="scroll|enterAlways|snap" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Título de la canción"
-            android:textColor="@color/orange_soft"
-            android:textSize="26sp"
-            android:fontFamily="sans-serif"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:padding="16dp" />
-    </com.google.android.material.card.MaterialCardView>
+            android:orientation="vertical"
+            android:paddingBottom="180dp">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/songLyricsCard"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/songTitleCard"
-        app:layout_constraintBottom_toTopOf="@id/audioPlayerLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:strokeColor="@color/orange_accent"
-        app:strokeWidth="1dp"
-        android:backgroundTint="@color/light_gray">
-        <ScrollView
-            android:id="@+id/songScrollView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:id="@+id/songLyrics"
+            <!-- Cabecera con información de la canción -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Letra de la canción"
-                android:textColor="@color/text_primary"
-                android:textSize="19sp"
-                android:fontFamily="sans-serif"
-                android:lineSpacingExtra="8dp"
-                android:padding="16dp"
-                android:background="@android:color/transparent"
-                android:layout_marginBottom="16dp"
-                android:letterSpacing="0.03" />
-        </ScrollView>
-    </com.google.android.material.card.MaterialCardView>
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="24dp"
+                android:paddingTop="8dp">
 
-    <!-- Reproductor de audio moderno -->
+                <!-- Icono grande -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/iconCard"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cardBackgroundColor="@color/orange_very_light"
+                    app:cardCornerRadius="24dp"
+                    app:cardElevation="4dp"
+                    app:strokeWidth="0dp">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_music"
+                        app:tint="@color/orange_primary" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Título -->
+                <TextView
+                    android:id="@+id/songTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text_primary"
+                    android:textSize="24sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="-0.02"
+                    tools:text="Alabaré" />
+
+                <!-- Categoría -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:cardBackgroundColor="@color/md_theme_surfaceVariant"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="0dp"
+                    app:strokeWidth="0dp">
+
+                    <TextView
+                        android:id="@+id/songCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="4dp"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif-medium"
+                        tools:text="Alabanza" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <!-- Letra de la canción -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="24dp"
+                app:cardBackgroundColor="@color/md_theme_surface"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="2dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:src="@drawable/ic_lyrics"
+                            app:tint="@color/orange_primary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="Letra"
+                            android:textColor="@color/text_primary"
+                            android:textSize="14sp"
+                            android:fontFamily="sans-serif-medium" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/divider_color" />
+
+                    <TextView
+                        android:id="@+id/songLyrics"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="16sp"
+                        android:lineSpacingMultiplier="1.5"
+                        android:fontFamily="sans-serif"
+                        tools:text="Alabaré, alabaré, alabaré a mi Señor\nAlabaré, alabaré, alabaré a mi Señor\n\nJuan vio el número de los redimidos\nY todos alababan al Señor\nUnos cantaban, otros oraban\nY todos alababan al Señor" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Reproductor de audio moderno (floating bottom) -->
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/audioPlayerCard"
-        android:layout_width="0dp"
+        android:id="@+id/playerCard"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="24dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="6dp"
-        app:strokeColor="@color/orange_soft"
-        app:strokeWidth="2dp"
-        android:backgroundTint="@color/white">
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/md_theme_surface"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:strokeWidth="0dp"
+        android:visibility="gone"
+        tools:visibility="visible">
+
         <LinearLayout
-            android:id="@+id/audioPlayerLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:padding="12dp">
-            <ImageButton
-                android:id="@+id/playButton"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@android:drawable/ic_media_play"
-                android:background="@color/orange_soft"
-                android:tint="@color/white"
-                android:contentDescription="Reproducir"
-                android:layout_marginEnd="12dp"
-                android:elevation="4dp" />
-            <ImageButton
-                android:id="@+id/pauseButton"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@android:drawable/ic_media_pause"
-                android:background="@color/orange_accent"
-                android:tint="@color/white"
-                android:contentDescription="Pausar"
-                android:elevation="4dp" />
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Progress bar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/currentTime"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="0:00"
+                    android:textColor="@color/text_tertiary"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/progressSlider"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:value="0"
+                    app:thumbColor="@color/orange_primary"
+                    app:trackColorActive="@color/orange_primary"
+                    app:trackColorInactive="@color/md_theme_surfaceVariant"
+                    app:trackHeight="4dp"
+                    app:haloRadius="0dp" />
+
+                <TextView
+                    android:id="@+id/totalTime"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="0:00"
+                    android:textColor="@color/text_tertiary"
+                    android:textSize="12sp"
+                    android:gravity="end" />
+            </LinearLayout>
+
+            <!-- Controles -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <!-- Rebobinar -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/rewindButton"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    app:icon="@drawable/ic_replay_10"
+                    app:iconSize="24dp"
+                    app:iconTint="@color/text_secondary" />
+
+                <!-- Reproducir/Pausar -->
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/playPauseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="24dp"
+                    android:src="@drawable/ic_play_arrow"
+                    app:backgroundTint="@color/orange_primary"
+                    app:tint="@android:color/white"
+                    app:fabSize="normal"
+                    app:elevation="4dp"
+                    android:contentDescription="Reproducir/Pausar" />
+
+                <!-- Adelantar -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/forwardButton"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    app:icon="@drawable/ic_forward_10"
+                    app:iconSize="24dp"
+                    app:iconTint="@color/text_secondary" />
+            </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Mensaje si no hay audio -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/noAudioCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/md_theme_surfaceVariant"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="0dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_music"
+                app:tint="@color/text_tertiary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Audio no disponible para esta canción"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
